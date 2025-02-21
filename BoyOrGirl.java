@@ -9,13 +9,15 @@ public class BoyOrGirl{
         int elem = 0;
         int count = 0;
 
+       
         for(int i = 0; i < name.length(); i++){
             aux = name.charAt(i);
             if(!contains(aux, elem, letters)){
                 count++;
+                letters[i] = aux;
+                elem++;
             }
         }
-
         //IT WORKS!!!!!!!!!!
         System.out.println(count%2==0 ? "CHAT WITH HER" :"IGNORE HIM");
 
