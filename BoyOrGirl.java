@@ -18,7 +18,7 @@ public class BoyOrGirl{
                 elem++;
             }
         }
-        System.out.println(count);
+       // System.out.println(count);
 
         //IT WORKS!!!!!!!!!!
         System.out.println(count%2==0 ? "CHAT WITH HER!" :"IGNORE HIM!");
