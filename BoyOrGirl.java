@@ -19,7 +19,7 @@ public class BoyOrGirl{
             }
         }
         //IT WORKS!!!!!!!!!!
-        System.out.println(count%2==0 ? "CHAT WITH HER" :"IGNORE HIM");
+        System.out.println(count%2==0 ? "CHAT WITH HER!" :"IGNORE HIM!");
 
 
     }
