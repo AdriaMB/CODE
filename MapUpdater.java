@@ -34,7 +34,7 @@ public class MapUpdater{
 	
 	public static void printMap(){
 		//Clear the screen
-		System.out.printf("\033[H \033[2J");
+		System.out.printf("\033[H \033[2J"); // Use of ANSI code. Works correctly in Linux, not in Windows
 		System.out.flush();
 		
 		for(int i = 0; i < MAP_WIDTH; i++){
