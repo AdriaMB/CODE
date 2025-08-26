@@ -1,0 +1,67 @@
+<!-- Esto es un comentario. -->
+<!-- Todo código HTML tiene una estructura en forma de nodos-->
+<!--Hay que declarar que tipo de lenguage utilizamos: -->
+<!DOCTYPE html>
+<html>
+    <!--Hay dos partes diferenciables: -->
+    <head>
+        <!-- No se renderiza nada. Se usa para dar metadatos de la página, más info-->
+        
+        <!--Por ejemplo, content = (...) se utiliza para adaptar los elementos de la web
+        a la resolución de la pantalla, por ejemplo, en un móvil-->
+        <meta name="viewport" content="width=device-width">
+
+        <!--Esta etiqueta establece el título que tendrá la página web de cara a Internet. 
+        Es el nombre que sale en el navegador-->
+        <title>Portfolio</title>
+
+        <!--Esta etiqueta define la descripción de a página web-->
+        <meta name="description" content="Portfolio de Adrià Marín Bayarri, alumno 
+        de tercero del grado de Informática de la UPV">
+
+        <link rel="icon" type="image/jpg" href="cieloNocturno.jpg">
+
+        <!-- Definir alternativas de redireccionamiento-->
+        <link rel="alternate" href="https://Portfolio/en">
+
+        <!-- También podemos definir los estilos de la pagina(CSS)-->
+
+
+    </head>
+    <body>
+        <!--Contiene todo lo que se renderizará y presentará en la página web-->
+        <h1> Portfolio de Adrià Marín Bayarri </h1>
+        <p>Estudiante de tercero de <strong>Ingeniería Informática de la UPV</strong>
+        </p>
+
+        <h2>Estudios y experiencias</h2>
+
+        <ul>
+            <li class="list-item">Ingeniería informática 3ero de carrera</li>
+            <li class="list-item">Participación en el programa de verano BIP SensateX 2025</li>
+            <li class="list-item">Participación en el Hackathon "The Challenge" 2024</li>
+        </ul>
+
+        <img 
+            id="saturno"
+            width="250"
+            height=200
+            title="Imagen del cielo hecha por el papá" 
+            alt="Una fotografía del cielo nocturno. Este texto se muestra con el atributo alt
+            y solo se muestra cuando el navegador no puede cargar o mostrar la imagen. Este texto 
+            funciona como un contexto" 
+            src="cieloNocturno.jpg"
+        >
+
+        <h2>Proyectos realizados</h2>
+        <h3>Lenguajes más utilizados</h3>
+        <ol>
+            <li>Java</li>
+            <li>C</li>
+            <li>Python</li>
+        </ol>
+
+
+    </body>
+
+
