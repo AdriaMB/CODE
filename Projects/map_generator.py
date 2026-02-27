@@ -2,7 +2,7 @@ from tile import Tile, plains, forest, mountain, water, swamp, character
 from random import randint
 
 class Map:
-    def __init__(self, width: int, height: int) -> none:
+    def __init__(self, width: int, height: int) -> None:
         self.width = width
         self.height = height
 

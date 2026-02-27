@@ -13,20 +13,20 @@ def run() -> None:
         player_order = input("> ")
 
         if player_order == "a":
-            map.move_character(-1, 0)
-        elif player_order == "d":
-            map.move_character(1, 0)
-        elif player_order == "s":
             map.move_character(0, -1)
-        elif player_order == "w":
+        elif player_order == "d":
             map.move_character(0, 1)
+        elif player_order == "s":
+            map.move_character(1,0)
+        elif player_order == "w":
+            map.move_character(-1, 0)
 
 
         
 if __name__ == "__main__":
 
     # curses library
-    stdscr = curses.initscr()
+    # stdscr = curses.initscr()
     #curses.noecho()         # turn off automatic echoing of keys to the screen, in order to be able to read keys and only display them under certain circumstances. 
     #curses.cbreak()         # react to keys instantly, without requiring the Enter key to be pressed
     #stdscr.keypad(True)     # special keys, such as the cursor keys or navigation keys such as Page Up and Home
